@@ -1,0 +1,19 @@
+{
+  "name": "dispatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node lib/subscriber.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "fluent-amqp": "^0.2.0",
+    "moment": "^2.18.1",
+    "socket.io": "^1.7.3"
+  }
+}
