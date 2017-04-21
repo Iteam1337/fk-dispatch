@@ -5,6 +5,6 @@ WORKDIR /app
 ADD package.json /app/
 RUN npm install --production
 
-ADD lib /app/
+ADD lib /app/lib
 
 CMD npm start
