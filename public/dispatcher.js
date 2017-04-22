@@ -1,5 +1,5 @@
 (() => {
-  const socket = io('http://localhost:3000')
+  const socket = io(`//${location.host}`)
   const container = document.getElementById('container')
 
   function showMessage (txt) {
